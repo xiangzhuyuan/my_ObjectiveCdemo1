@@ -10,6 +10,8 @@
 		BFAFDCA3186C9CEC0070D5E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAFDCA2186C9CEC0070D5E6 /* Foundation.framework */; };
 		BFAFDCA6186C9CEC0070D5E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAFDCA5186C9CEC0070D5E6 /* main.m */; };
 		BFAFDCAA186C9CEC0070D5E6 /* xiangzhuyuan_objectiveC_1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BFAFDCA9186C9CEC0070D5E6 /* xiangzhuyuan_objectiveC_1.1 */; };
+		BFAFDCB2186C9D130070D5E6 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAFDCB1186C9D130070D5E6 /* Employee.m */; };
+		BFAFDCB5186C9D2C0070D5E6 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = BFAFDCB4186C9D2C0070D5E6 /* Manager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		BFAFDCA5186C9CEC0070D5E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BFAFDCA8186C9CEC0070D5E6 /* xiangzhuyuan_objectiveC_1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xiangzhuyuan_objectiveC_1-Prefix.pch"; sourceTree = "<group>"; };
 		BFAFDCA9186C9CEC0070D5E6 /* xiangzhuyuan_objectiveC_1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = xiangzhuyuan_objectiveC_1.1; sourceTree = "<group>"; };
+		BFAFDCB0186C9D130070D5E6 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		BFAFDCB1186C9D130070D5E6 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		BFAFDCB3186C9D2C0070D5E6 /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		BFAFDCB4186C9D2C0070D5E6 /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +54,10 @@
 		BFAFDC96186C9CEC0070D5E6 = {
 			isa = PBXGroup;
 			children = (
+				BFAFDCB3186C9D2C0070D5E6 /* Manager.h */,
+				BFAFDCB4186C9D2C0070D5E6 /* Manager.m */,
+				BFAFDCB0186C9D130070D5E6 /* Employee.h */,
+				BFAFDCB1186C9D130070D5E6 /* Employee.m */,
 				BFAFDCA4186C9CEC0070D5E6 /* xiangzhuyuan_objectiveC_1 */,
 				BFAFDCA1186C9CEC0070D5E6 /* Frameworks */,
 				BFAFDCA0186C9CEC0070D5E6 /* Products */,
@@ -140,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFAFDCA6186C9CEC0070D5E6 /* main.m in Sources */,
+				BFAFDCB5186C9D2C0070D5E6 /* Manager.m in Sources */,
+				BFAFDCB2186C9D130070D5E6 /* Employee.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
